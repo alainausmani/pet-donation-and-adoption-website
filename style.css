@@ -1,0 +1,23 @@
+body{
+    background-color: #112b3cee;
+}
+#navv{
+    background-color: black;
+}
+    .cart{
+    position: relative;
+    color:  grey;
+    font-size: 30px;
+    padding: 5px;
+    border-radius: 4px;
+    }
+    .cartAmount{
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    font-size: 16px;
+    color: white;
+    padding: 2px;
+    border-radius: 3px;
+    }
+    

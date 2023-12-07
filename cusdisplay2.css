@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.product {
+  display: flex;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.product .product-info {
+  flex: 1;
+  padding: 20px;
+}
+
+.product-image-container {
+  width: 40%; /* Adjust the width of the image container */
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+  border-radius: 0 10px 10px 0; /* Adjust border-radius for the image */
+}
+
+/* For smaller screens, adjust the layout */
+@media screen and (max-width: 768px) {
+  .product {
+    flex-direction: column;
+  }
+
+  .product-image-container {
+    width: 100%; /* Make the image container take full width on smaller screens */
+  }
+
+  .product-image {
+    border-radius: 10px 10px 0 0; /* Adjust border-radius for top corners */
+  }
+}
